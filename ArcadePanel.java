@@ -48,7 +48,6 @@ public class ArcadePanel extends JPanel implements ActionListener
         starship = new Ship(50, 0, 6, "space-invaders.png", width);
         starship.setY(height - starship.getIcon().getIconHeight());
         animationObjects.add(starship);
-
         // Needs to be above timers
         setLayout(new BorderLayout());
         score = new Score().getScore();
@@ -57,8 +56,6 @@ public class ArcadePanel extends JPanel implements ActionListener
         scoreLabel.setForeground(Color.RED);
         scoreLabel.setFont(new Font("Serif", Font.BOLD, 40));
         add(scoreLabel, BorderLayout.NORTH);
-
-
         t = new Timer(5, this);
         t.start();
         nextWaveT = new Timer(1000, new NewWave());
