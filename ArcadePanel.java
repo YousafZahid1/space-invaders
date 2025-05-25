@@ -3,7 +3,6 @@ import java.awt.event.*;
 import java.awt.image.BufferedImage;
 import javax.swing.*;
 import java.util.ArrayList;
-
 import ships.Ship;
 import ships.EnemyShip;
 import ships.Bullet;
