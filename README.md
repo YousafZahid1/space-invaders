@@ -7,7 +7,7 @@ This is done for the final project of 2023-2024 Foundations of Computer Science 
 ## Running the Game
 Run the following command to install it:
 ```bash
-git clone https://github.com/JasonGrace2282/space-invaders.git
+git clone https://github.com/YousafZahid1/space-invaders.git
 cd space-invaders
 ```
 To run the game, all you need to do is:
